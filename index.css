@@ -70,7 +70,6 @@ button {
   box-shadow: 1px 1px 10px rgb(245, 225, 224), -2px 10px 15px rgb(245, 225, 224);
 }
 
-/*
 @media screen and (min-width: 768px) {
   #bg {
     background-image: url(./images/bg-pattern-desktop.svg);
@@ -151,7 +150,6 @@ button {
     color: pink;
   }
 }
-*/
 
 @media screen and (min-width: 1300px) {
   #bg {
@@ -181,19 +179,26 @@ button {
     float: left;
     width: 60%;
     height: 100vh;
-    padding: 5rem 24rem 5rem 15rem;
+    padding: 5rem 25rem 5rem 15rem;
   }
 
   .soon {
     text-align: left;
     color: rgb(230, 196, 199);
-    padding-top: 5rem;
+    padding-top: 4rem;
+    margin-bottom: -5rem;
+  }
+
+  .soon p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
   }
 
   h1 {
-    font-size: 5.5rem;
+    font-size: 5.3rem;
     font-weight: 100;
-    letter-spacing: 1.8rem;
+    letter-spacing: 1.6rem;
+    margin-bottom: -3rem;
   }
 
   .desktopLogo {
@@ -205,11 +210,14 @@ button {
   }
 
   input {
+    height: 4.8rem;
     width: 35rem;
+    font-size: 1.5rem;
     border: 0.2rem solid palevioletred;
   }
 
   button {
+    height: 4.8rem;
     width: 7.5rem;
     margin-left: 1rem;
     background-color: rgb(249, 205, 206);
