@@ -45,8 +45,8 @@ span {
 }
 
 input {
-  height: 4.5rem;
-  width: /*33rem*/ 80vw;
+  height: 4.8rem;
+  width: /*33rem*/ 82vw;
   padding-left: 2.5rem;
   border-radius: 3rem;
   border: 0.1rem solid rgb(218, 184, 189);
@@ -58,8 +58,8 @@ input {
 }
 
 button {
-  height: 4.5rem;
-  width: /*7rem*/ 20vw;
+  height: 4.8rem;
+  width: /*7rem*/ 16vw;
   color: white;
   background-color: rgb(241, 155, 154);
   border-radius: 2.5rem;
